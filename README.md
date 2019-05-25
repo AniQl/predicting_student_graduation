@@ -39,11 +39,17 @@
 	 - division of previously prepared dataset into 'train' and 'test' set with ratio of 85% - 15% respectively (this results with the best model accuracy).
  3. Model training and evaluating its accuracy.
 	 - tested six different classifiers and obtained such results:
+	 <br>
 	 | Gaussian   |  = 64.9786% 
+	 <br>
 	 | KNeighbors | = 69.0442%
+	 <br>
 	 | LinearSVC | = 68.1169%
+	 <br>
 	 | RandomForrest | = 67.1184%
+	 <br>
 	 | Multi-Layer Perceptron | = 32.2396%
+	 <br>
 	 | AdaBoost | = 68.4736%
 
 
