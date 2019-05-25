@@ -1,5 +1,3 @@
-# Project Info
-
 ## <b> Task explonation:</b>
 
 > You work as a data scientists at one of the top universities in the USA. One day a rector of the university comes to you with a task. She wants you to investigate the university’s admittance criteria and to create an engine that would recommend candidates with the highest probability of graduating. The university wants to maximise the graduate rates by enrolling only such students, because it is beneficial for both students and the university. Students get their degree, which makes it easier for them to start their career, and the university earns a tuition for the whole length of a program, as dropouts are minimised.
@@ -24,27 +22,26 @@
 
  1. Firstly I discovered the data and prepared it for machine learning. The steps I made:
 
- - combine graduates.csv and score_board.csv into one file.csv
- - convert categorical columns into numeric (for example: FALSE = 0, TRUE = 1)
- - round the floating points values to three decimals for improving learning accuracy
+	 - combine graduates.csv and score_board.csv into one file.csv
+	 - convert categorical columns into numeric (for example: FALSE = 0, TRUE = 1)
+	 - round the floating points values to three decimals for improving learning accuracy
 
 2. Preparing data for training the model:
 
- - graduated column provides three informations: TRUE, FALSE, NO_INFO. We do not need our model to train on those three possible outcomes because we want at the output information whether student will graduate or not. Based on this assumption I made score_board_train.csv which contains students with graduated label = TRUE or FALSE. This dramatically decrease possible data to train from almost 50 000 records to 7 000. 
+	 - graduated column provides three informations: TRUE, FALSE, NO_INFO. We do not need our model to train on those three possible outcomes because we want at the output information whether student will graduate or not. Based on this assumption I made score_board_train.csv which contains students with graduated label = TRUE or FALSE. This dramatically decrease possible data to train from almost 50 000 records to 7 000. 
  
- - next step was to delete unwanted columns for training such as: 
+	 - next step was to delete unwanted columns for training such as: 
  'graduated' (this is output information that we want to predict), 
  'id' (does not influence student's graduation), 
  'accepted' (we already sorted that information), 
  'year' (does not influence student's graduation).
  
- - division of previously prepared dataset into 'train' and 'test' set with ratio of 85% - 15% respectively (this results with the best model accuracy).
+	 - division of previously prepared dataset into 'train' and 'test' set with ratio of 85% - 15% respectively (this results with the best model accuracy).
  3. Model training and evaluating its accuracy.
- - tested six different classifiers and obtained such results:
+	 - tested six different classifiers and obtained such results:
  
- | Gaussian   | KNeighbors | LinearSVC | RandomForrest | Multi-Layer Perceptron | AdaBoost |
-|64.9786% | 69.0442% | 68.1169% | 67.1184%--------|32.2396%----------------|68.4736%|
-
+	 | Gaussian   | KNeighbors | LinearSVC | RandomForrest | Multi-Layer Perceptron | AdaBoost |
+		|64.9786% | 69.0442% | 68.1169% | 67.1184%--------|32.2396%----------------|68.4736%|
 
 
 
