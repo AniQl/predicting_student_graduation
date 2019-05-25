@@ -1,4 +1,4 @@
-## <b> Task explonation:</b>
+## <b> Task explanation:</b>
 
 > You work as a data scientists at one of the top universities in the USA. One day a rector of the university comes to you with a task. She wants you to investigate the university’s admittance criteria and to create an engine that would recommend candidates with the highest probability of graduating. The university wants to maximise the graduate rates by enrolling only such students, because it is beneficial for both students and the university. Students get their degree, which makes it easier for them to start their career, and the university earns a tuition for the whole length of a program, as dropouts are minimised.
 
@@ -52,5 +52,14 @@
 	 <br>
 	 | AdaBoost | = 68.4736%
 
+4. App preparation in microframework - Flask and deployment on Google Cloud Platform.
+		
+	- deployed app can be seen at: [pearson-classifier.appspot.com](http://pearson-classifier.appspot.com/)
+	
+## Future work (things I did not manage to do in time):
 
+ 1. Unfortunetly I did not prepared the jupyter notebook report due to my long unavaibility. I wanted to present all data distribution and dependecies between different features using plots.
+ 2. Improve front-end application.
+ 3. More thorough explanation of my methods and way of thinking.
+ 4. Collect more data by using model trained on (7000k records) to predict rest (40 000 records) and then train new model based on previously predicted records. 
 
