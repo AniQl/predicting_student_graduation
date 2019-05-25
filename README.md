@@ -60,13 +60,13 @@
     git clone  ([https://github.com/AniQl/predicting_student_graduation](https://github.com/AniQl/predicting_student_graduation).git)
     
 2.  Install all dependencies by:
-    pip install -r requirements.txt
+    <br>pip install -r requirements.txt
     
 3.  Run the server from /predicting_student_graduation folder
-    python3 flask_app.py
+    <br>python3 flask_app.py
     
 4.  Enter and test:  
-    [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
+    <br>[http://127.0.0.1:5000/](http://127.0.0.1:5000/)
 	
 ## Future work (things I did not manage to do in time):
 
