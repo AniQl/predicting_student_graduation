@@ -66,7 +66,7 @@
     <br>python3 flask_app.py
     
 4.  Enter and test:  
-    <br>[http://127.0.0.1:5000/](http://127.0.0.1:5000/)
+    [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
 	
 ## Future work (things I did not manage to do in time):
 
