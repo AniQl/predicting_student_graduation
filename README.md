@@ -41,7 +41,7 @@
 	 - tested six different classifiers and obtained such results:
  
 	 | Gaussian   | KNeighbors | LinearSVC | RandomForrest | Multi-Layer Perceptron | AdaBoost |
-		|64.9786% | 69.0442% | 68.1169% | 67.1184%--------|32.2396%----------------|68.4736%|
+	|64.9786% | 69.0442% | 68.1169% | 67.1184%--------|32.2396%----------------|68.4736%|
 
 
 
