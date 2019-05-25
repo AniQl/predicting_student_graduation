@@ -42,7 +42,7 @@
 	 <br>
 	 | Gaussian   |  = 64.9786% 
 	 <br>
-	 | KNeighbors | = 69.0442%
+	 | KNeighbors | = 69.0442% (used in my app, because of the highest accuracy)
 	 <br>
 	 | LinearSVC | = 68.1169%
 	 <br>
