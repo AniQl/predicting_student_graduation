@@ -57,7 +57,7 @@
 	- deployed app can be seen at: [pearson-classifier.appspot.com](http://pearson-classifier.appspot.com/)
 ## How to deploy app on local host:
 1.  In prepared virtual environment run following command: 
-    git clone  ([https://github.com/AniQl/predicting_student_graduation](https://github.com/AniQl/predicting_student_graduation).git)
+    <br>git clone  ([https://github.com/AniQl/predicting_student_graduation](https://github.com/AniQl/predicting_student_graduation).git)
     
 2.  Install all dependencies by:
     <br>pip install -r requirements.txt
